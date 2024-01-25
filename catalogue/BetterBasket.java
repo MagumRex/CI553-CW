@@ -1,18 +1,16 @@
 package catalogue;
 
 import java.io.Serializable;
-import java.util.Collections;
 
 /**
- * Write a description of class BetterBasket here.
- * 
- * @author  Your Name 
+ * A modified collection of products from the CatShop.
+ * Used to record the products that are to be/wished to be purchased.
+ * Extends the functionality of the Basket class.
+ * @author Your Name
  * @version 1.0
  */
-public class BetterBasket extends Basket implements Serializable
-{
-  private static final long serialVersionUID = 1L;
-  
+public class BetterBasket extends Basket implements Serializable {
+    private static final long serialVersionUID = 1L;
 
-  // You need to add code here
+    // You can add new functionality or modifications here.
 }
